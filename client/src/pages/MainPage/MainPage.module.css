@@ -1,0 +1,58 @@
+.wrapper {
+  background-color: rgb(231, 250, 248);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+}
+
+.content {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.contentPart {
+  flex: 9;
+  padding: 1rem;
+}
+
+.results {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartContainer {
+  display: flex;
+  width: 100%;
+}
+
+.totals {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.totalsH {
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}

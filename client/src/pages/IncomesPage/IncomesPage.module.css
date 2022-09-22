@@ -1,0 +1,74 @@
+.wrapper {
+  background-color: rgb(231, 250, 248);
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  position: absolute;
+  display: flex;
+  height: 90vh;
+  width: 90vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.content {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.contentPart {
+  flex: 9;
+}
+
+.expenses {
+  padding: 2rem;
+  background-color: transparent;
+  margin: 0 auto;
+  min-width: 95%;
+  height: 50%;
+  overflow-y: scroll;
+}
+
+.expenses::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+}
+.expenses::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+.expenses::-webkit-scrollbar-thumb {
+  background: #e1e1e1;
+  border: 2px solid #3ca7af;
+  border-radius: 50px;
+}
+.expenses::-webkit-scrollbar-thumb:hover {
+  background: #fcfcfc;
+}
+.expenses::-webkit-scrollbar-thumb:active {
+  background: #ffffff;
+}
+.expenses::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 23px;
+}
+.expenses::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+.expenses::-webkit-scrollbar-track:active {
+  background: #666666;
+}
+.expenses::-webkit-scrollbar-corner {
+  background: transparent;
+}

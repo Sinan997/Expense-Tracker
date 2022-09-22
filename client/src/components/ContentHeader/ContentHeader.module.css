@@ -1,0 +1,17 @@
+.contentHeader {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.logoutIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #ff2424;
+  transform: rotate(90deg);
+}

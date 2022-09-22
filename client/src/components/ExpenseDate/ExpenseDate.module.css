@@ -1,0 +1,12 @@
+.expenseDate {
+  display: flex;
+  flex-direction: column;
+  width: 6.5rem;
+  height: 6.5rem;
+  border: 1px solid #ececec;
+  background-color: #204d7d;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
